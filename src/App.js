@@ -1,10 +1,17 @@
 import React from "react";
-import { Logo } from "./components/Logo";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams,
+} from "react-router-dom";
+import { Home } from "./peges/Home";
 
 function App() {
   return (
     <div className="App">
-      <Logo />
+      <Home />
     </div>
   );
 }

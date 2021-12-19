@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../../escuelaDesarrollo"
+	},
+	{
+		"path": "../../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "proyectos-react"
+  }
+}
