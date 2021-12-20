@@ -6,4 +6,30 @@ const color = {
   greed: "#63886f",
   pink: "#8e645c",
 };
-export { Lista };
+
+const GrupoList = styled.div`
+  width: 60%;
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    list-style: none;
+  }
+  p {
+    color: ${color.greed};
+    font-size: 20px;
+    border-right: 2px solid ${color.yellow};
+    height: 1.2em;
+    width: 5em;
+    margin: 20px;
+    &.active {
+      color: ${color.yellow};
+    }
+    &:hover {
+      color: ${color.yellow};
+    }
+  }
+  // background: ${color.yellow};
+`;
+export { GrupoList };

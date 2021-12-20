@@ -1,8 +1,10 @@
 body {
-  background-image: url();
+  margin: 0;
+  list-style: none;
+  right: ;
 }
 
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -39,4 +41,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-} */
+}

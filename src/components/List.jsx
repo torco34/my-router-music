@@ -1,48 +1,31 @@
 import React from "react";
-
+import { GrupoList } from "../assets/styled/List";
 // import { Link } from "react-router-dom";
 const List = () => {
   return (
     <>
-      {/* <div className="lista">
+      <GrupoList>
         <ul>
           <li>
-            <Link to="/">
-              <h4> Home</h4>
-            </Link>
+            <p className="active"> Home</p>
           </li>
           <li>
-            {" "}
-            <Link to="/hola">
-              <h4> Reviews</h4>
-            </Link>
+            <p> Reviews</p>
           </li>
           <li>
-            {" "}
-            <Link to="/">
-              <h4>Reissues </h4>
-            </Link>
+            <p>Reissues</p>
           </li>
           <li>
-            {" "}
-            <Link to="/">
-              <h4> Interviews</h4>
-            </Link>
+            <p>Interviews</p>
           </li>
           <li>
-            {" "}
-            <Link to="/">
-              <h4>Podcast</h4>
-            </Link>
+            <p>Podcast</p>
           </li>
           <li>
-            {" "}
-            <Link to="/">
-              <h4> About & Contact</h4>
-            </Link>
+            <p>Contact</p>
           </li>
         </ul>
-      </div> */}
+      </GrupoList>
     </>
   );
 };

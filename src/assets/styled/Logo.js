@@ -13,6 +13,7 @@ const LogoNew = styled.div`
   height: 50px;
   padding: 10px;
   border-radius: 3%;
+  z-index: 999;
  
   &:hover{
     background: ${color.pink};

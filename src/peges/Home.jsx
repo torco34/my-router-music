@@ -1,12 +1,14 @@
 import React from "react";
-
-import { Logo } from "../components/Logo";
-import { CuerpoBody } from "../assets/styled/Body";
+import { Header } from "../components/Header";
+import { Item } from "../components/Item";
+import { CuerpoBody, SombraImg } from "../assets/styled/Body";
 function Home() {
   return (
     <>
       <CuerpoBody>
-        <Logo />
+        <Header />
+        <Item />
+        <h2 className="text-center">SONIDOS DEL VIENTO</h2>
       </CuerpoBody>
     </>
   );
