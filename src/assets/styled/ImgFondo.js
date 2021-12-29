@@ -11,9 +11,11 @@ const CuerpoBody = styled.div`
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: absolute;
   background-attachment: fixed;
   background-position: center;
-  margin-top: -10px;
+  // margin-top: 20em;
+  // z-index: 9999;
 `;
 const SombraImg = styled.div`
   width: 100%;

@@ -1,16 +1,16 @@
 import React from "react";
-import { ImgFondo } from "../components/ImgFondo";
-import Avatar from "../assets/img/descarga.jpeg";
+
 import { CuerpoBody, SombraImg } from "../assets/styled/ImgFondo";
-const Reviews = (props) => {
+function ImgFondo(props) {
   return (
     <>
       <CuerpoBody>
         <SombraImg>
-          <img src={Avatar} />
+          <h2>este es mi home</h2>
         </SombraImg>
       </CuerpoBody>
     </>
   );
-};
-export { Reviews };
+}
+
+export { ImgFondo };

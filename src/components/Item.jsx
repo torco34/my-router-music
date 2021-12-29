@@ -1,17 +1,12 @@
 import React from "react";
 import { ItemPadre, ItemHijo, Sombr } from "../assets/styled/Item";
-function Item() {
+function Item(props) {
   return (
     <>
-      <ItemPadre>
-        <ItemHijo>
-          <p>hola mundo</p>
-        </ItemHijo>
-        <Sombr>
-          {" "}
-          <p>hola mundo</p>
-        </Sombr>
-      </ItemPadre>
+      <div className="image">
+        <img src={"img/" + props.image} width="100%" />
+      </div>
+      <div className="title">{props.text}</div>
     </>
   );
 }

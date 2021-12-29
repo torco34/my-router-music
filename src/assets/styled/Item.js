@@ -14,15 +14,15 @@ const ItemPadre = styled.div`
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   grid-gap: 10px;
-  margin-top: 20rem;
 `;
 const ItemHijo = styled.div`
-  // position: relative;
+  position: relative;
   color: #fff;
   min-height: 50vh;
   background: ${color.greed};
   opacity: 0.8;
   width: 20%;
+  margin-top: 20rem;
 `;
 const Sombr = styled.div`
   width: 20%;

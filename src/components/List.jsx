@@ -1,29 +1,29 @@
 import React from "react";
 import { GrupoList } from "../assets/styled/List";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 const List = () => {
   return (
     <>
       <GrupoList>
         <ul>
-          <li>
+          <Link to="/">
             <p className="active"> Home</p>
-          </li>
-          <li>
+          </Link>
+          <Link to="/reviews">
             <p> Reviews</p>
-          </li>
-          <li>
+          </Link>
+          <Link to="/Reissues">
             <p>Reissues</p>
-          </li>
-          <li>
+          </Link>
+          <Link to="/Interviews">
             <p>Interviews</p>
-          </li>
-          <li>
+          </Link>
+          <Link to="/Podcast">
             <p>Podcast</p>
-          </li>
-          <li>
+          </Link>
+          <Link to="/Contact">
             <p>Contact</p>
-          </li>
+          </Link>
         </ul>
       </GrupoList>
     </>

@@ -1,7 +1,12 @@
 import React from "react";
+import { Header } from "./Header";
 
-// import "../assets/estyle/components/Footer.css";
 const Layout = ({ children }) => {
-  return <div className="footer">hjfhhk</div>;
+  return (
+    <>
+      <Header />
+      {children}
+    </>
+  );
 };
 export { Layout };

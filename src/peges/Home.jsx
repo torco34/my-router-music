@@ -1,16 +1,18 @@
 import React from "react";
-import { Header } from "../components/Header";
-import { Item } from "../components/Item";
-import { CuerpoBody, SombraImg } from "../assets/styled/Body";
-function Home() {
+
+import { CuerpoBody, SombraImg } from "../assets/styled/ImgFondo";
+const avatar = [
+  { text: "escucha tu musica favorita", imagen: "mus.jpg" },
+  { text: "escucha tu musica favorita", imagen: "mus.jpg" },
+  { text: "escucha tu musica favorita", imagen: "mus.jpg" },
+];
+function Home(props) {
   return (
-    <>
-      <CuerpoBody>
-        <Header />
-        <Item />
-        <h2 className="text-center">SONIDOS DEL VIENTO</h2>
-      </CuerpoBody>
-    </>
+    <CuerpoBody>
+      <SombraImg>
+        <h2>este es mi home</h2>
+      </SombraImg>
+    </CuerpoBody>
   );
 }
 
