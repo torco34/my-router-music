@@ -10,10 +10,10 @@ const color = {
 };
 
 const welcome = styled.div`
-  display: flex;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  grid-gap: 10px;
+  // display: flex;
+  // grid-template-columns: repeat(2, 1fr);
+  // justify-content: center;
+  // grid-gap: 10px;
 `;
 
 export { welcome };

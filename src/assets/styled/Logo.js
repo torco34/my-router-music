@@ -1,42 +1,31 @@
 import styled from "styled-components";
 const color = {
-  yellow: "#dfaa46",
-  blue: "#a3b5b5",
-  orange: "#dd674b",
   greed: "#63886f",
-  pink: "#8e645c",
+  gray: "#cccccc",
+  white: "#ffff",
 };
 
 const LogoNew = styled.div`
-  background: ${color.blue};
-  width: 10%;
-  height: 50px;
-  padding: 10px;
+  width: 70%;
+  height: 40px;
+  text-align: center;
+  padding: 8px;
   border-radius: 3%;
-  z-index: 999;
- 
-  &:hover{
-    background: ${color.pink};
-    color: ${color.greed};
+  z-index: 4;
+  text-shadow: 2px 2px 5px ${color.white};
+  margin: auto;
+  &:hover {
+    text-shadow: 2px 2px 5px ${color.gray};
   }
-  
-   
-  
-
-}
-
 `;
 const LogoH1 = styled.h1`
   color: #fff;
   margin: auto;
-  margin-left: 10px;
+  font-size: 30px;
 `;
 const Span2 = styled.span`
-  color: ${color.orange};
+  color: ${color.greed};
   font-size: 25px;
-
-  &:hover {
-  }
 `;
 
 export { LogoNew, LogoH1, Span2 };

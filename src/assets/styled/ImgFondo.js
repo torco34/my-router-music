@@ -5,32 +5,47 @@ const color = {
   orange: "#dd674b",
   greed: "#63886f",
   pink: "#8e645c",
+  white: "#ffff",
 };
 const CuerpoBody = styled.div`
   background-image: url("../img/mus.jpg");
-  min-height: 100vh;
+  max-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: absolute;
   background-attachment: fixed;
   background-position: center;
-  // margin-top: 20em;
-  // z-index: 9999;
+  position: relative;
+  top: -20px;
+  margin: 0:
+  // font-size: calc(10px + 2vmin);
+  
+  
 `;
 const SombraImg = styled.div`
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: absolute;
-  // top: -10px;
-  left: 10px;
+  top: 0px;
+  left: 0px;
   background: linear-gradient(${color.yellow}, ${color.yellow});
-  opacity: 0.3;
+  opacity: 0.6;
+`;
 
-  h2 {
-    color: #000;
-    z-index: 999;
-    position: relative;
-    left: 20em;
+const Parrafoh2 = styled.h2`
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+  fon-size: 10px;
+  margin-top: 20px;
+  p {
+    border: solid 1px ${color.white};
+    margin-right: 10px;
+    color: ${color.white};
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    opacity: 0.6;
   }
 `;
-export { CuerpoBody, SombraImg };
+
+export { CuerpoBody, SombraImg, Parrafoh2 };

@@ -5,7 +5,6 @@ import { List } from "./List";
 const Header = () => {
   return (
     <Container>
-      <Logo />
       <List />
     </Container>
   );

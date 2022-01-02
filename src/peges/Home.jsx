@@ -1,16 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { CuerpoBody, SombraImg, Parrafoh2 } from "../assets/styled/ImgFondo";
+import { HeaderVerti } from "../components/HeaderVirti";
 
-import { CuerpoBody, SombraImg } from "../assets/styled/ImgFondo";
-const avatar = [
-  { text: "escucha tu musica favorita", imagen: "mus.jpg" },
-  { text: "escucha tu musica favorita", imagen: "mus.jpg" },
-  { text: "escucha tu musica favorita", imagen: "mus.jpg" },
-];
 function Home(props) {
   return (
     <CuerpoBody>
+      <HeaderVerti />
       <SombraImg>
-        <h2>este es mi home</h2>
+        <Parrafoh2>
+          <Link to="/">
+            <p className=" btn btn-danger">Iniciar Section</p>
+          </Link>
+        </Parrafoh2>
       </SombraImg>
     </CuerpoBody>
   );
