@@ -1,7 +1,6 @@
 body {
   margin: 0;
   list-style: none;
-  right: ;
 }
 
 .App {
@@ -11,6 +10,7 @@ body {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  justify-content: ;
 }
 
 @media (prefers-reduced-motion: no-preference) {
