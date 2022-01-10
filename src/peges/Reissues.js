@@ -1,14 +1,16 @@
 import React from "react";
 
-import { CuerpoBody, SombraImg } from "../assets/styled/ImgFondo";
+import { ImgBody, SombraImg, Parrafoh2 } from "../assets/styled/ImgFondo";
+import { HeaderVerti } from "../components/HeaderVerti";
 function Reissues(props) {
   return (
     <>
-      <CuerpoBody>
+      <ImgBody>
+        <HeaderVerti />
         <SombraImg>
-          <h2>este es mi resues</h2>
+          <h2>Reissues</h2>
         </SombraImg>
-      </CuerpoBody>
+      </ImgBody>
     </>
   );
 }

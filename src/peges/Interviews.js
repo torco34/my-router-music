@@ -1,12 +1,14 @@
-import { CuerpoBody, SombraImg } from "../assets/styled/ImgFondo";
+import { ImgBody, SombraImg, Parrafoh2 } from "../assets/styled/ImgFondo";
+import { HeaderVerti } from "../components/HeaderVerti";
 function Interviews(props) {
   return (
     <>
-      <CuerpoBody>
+      <ImgBody>
+        <HeaderVerti />
         <SombraImg>
           <h2>este es mi Iterviews</h2>
         </SombraImg>
-      </CuerpoBody>
+      </ImgBody>
     </>
   );
 }

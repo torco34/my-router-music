@@ -1,14 +1,16 @@
 import React from "react";
-
-import { CuerpoBody, SombraImg } from "../assets/styled/ImgFondo";
+import { Link } from "react-router-dom";
+import { ImgBody, SombraImg } from "../assets/styled/ImgFondo";
+import { HeaderVerti } from "./HeaderVerti";
+import { Home } from "../peges/Home";
 function ImgFondo(props) {
   return (
     <>
-      <CuerpoBody>
+      <ImgBody>
         <SombraImg>
-          <h2>este es mi home</h2>
+          <HeaderVerti />
         </SombraImg>
-      </CuerpoBody>
+      </ImgBody>
     </>
   );
 }

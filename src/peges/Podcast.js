@@ -1,12 +1,14 @@
-import { CuerpoBody, SombraImg } from "../assets/styled/ImgFondo";
+import { ImgBody, SombraImg } from "../assets/styled/ImgFondo";
+import { HeaderVerti } from "../components/HeaderVerti";
 function Podcast(props) {
   return (
     <>
-      <CuerpoBody>
+      <ImgBody>
+        <HeaderVerti />
         <SombraImg>
-          <h2>este es mi Podcast</h2>
+          <p>Podcast</p>
         </SombraImg>
-      </CuerpoBody>
+      </ImgBody>
     </>
   );
 }

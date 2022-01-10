@@ -7,23 +7,22 @@ const color = {
   pink: "#8e645c",
   white: "#ffff",
 };
-const CuerpoBody = styled.div`
+const ImgBody = styled.div`
   background-image: url("../img/mus.jpg");
-  max-height: 100vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   position: relative;
-  top: -20px;
-  margin: 0:
-  // font-size: calc(10px + 2vmin);
-  
-  
+  // position: absolute;
+
+  // margin: 10px 20px 30px 50px:
+  z-index: 1;
 `;
 const SombraImg = styled.div`
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -37,10 +36,12 @@ const Parrafoh2 = styled.h2`
   margin-right: 10px;
   fon-size: 10px;
   margin-top: 20px;
+
   p {
     border: solid 1px ${color.white};
     margin-right: 10px;
-    color: ${color.white};
+    color: ;
+
     padding: 10px;
     font-size: 20px;
     margin-top: 20px;
@@ -48,4 +49,4 @@ const Parrafoh2 = styled.h2`
   }
 `;
 
-export { CuerpoBody, SombraImg, Parrafoh2 };
+export { ImgBody, SombraImg, Parrafoh2 };
