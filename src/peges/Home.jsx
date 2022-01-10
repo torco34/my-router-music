@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ImgFondo } from "../components/ImgFondo";
 import { ImgBody, SombraImg, Parrafoh2 } from "../assets/styled/ImgFondo";
 import { HeaderVerti } from "../components/HeaderVerti";
 

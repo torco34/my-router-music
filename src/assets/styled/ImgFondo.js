@@ -15,9 +15,6 @@ const ImgBody = styled.div`
   background-attachment: fixed;
   background-position: center;
   position: relative;
-  // position: absolute;
-
-  // margin: 10px 20px 30px 50px:
   z-index: 1;
 `;
 const SombraImg = styled.div`
@@ -48,5 +45,10 @@ const Parrafoh2 = styled.h2`
     opacity: 0.6;
   }
 `;
+const BodyContact = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+`;
 
-export { ImgBody, SombraImg, Parrafoh2 };
+export { ImgBody, SombraImg, Parrafoh2, BodyContact };
