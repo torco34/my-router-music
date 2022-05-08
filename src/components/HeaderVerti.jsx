@@ -23,12 +23,12 @@ function HeaderVerti(props) {
         <br />
         <div>
           <Link to="/">
-            <p>Inicio</p>
+            <p className="active">Inicio</p>
             <Iconos icon={faHouseUser} />
           </Link>
         </div>
         <div>
-          <Link to="/reviews">
+          <Link to="/interviews">
             <p>Buscar</p>
             <Iconos icon={faSearch} />
           </Link>
@@ -39,19 +39,25 @@ function HeaderVerti(props) {
             <Iconos icon={faBook} />
           </Link>
         </div>
-        <br />
-        <br></br>
+
         <div>
-          <Link to="/Reissues">
-            <p>Crear lista</p>
-            <SignMore>+</SignMore>
+          <Link to="/Contact">
+            <p>Tu biblioteca</p>
+            <Iconos icon={faBook} />
           </Link>
         </div>
-        <br />
-        <div>
-          <p>Cancion que te gusta</p>
 
-          <Iconos icon={faHeart} />
+        <div>
+          <Link to="/podcast">
+            <SignMore>+</SignMore>
+            <p>Crear lista</p>
+          </Link>
+        </div>
+        <br></br>
+        <div>
+          <Link to="/podcast">
+            <h6>Cancion que te gusta</h6>
+          </Link>
         </div>
 
         <LineEnd></LineEnd>

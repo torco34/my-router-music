@@ -13,12 +13,13 @@ const color = {
 const HeaderPadre = styled.div`
   position: relative;
   height: 100vh;
-  width: 15%;
+  width: 100%;
   cursor: pointer;
   padding: 30px;
   z-index: 4;
-  background: ${color.white};
+
   opacity: 0.7;
+
   a {
     text-decoration: none;
   }
@@ -28,6 +29,15 @@ const HeaderPadre = styled.div`
     color: ${color.orange};
     left: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    &.active {
+      color: ${color.greed};
+    }
+    &:hover {
+      color: ${color.greed};
+    }
+  }
+  h6 {
+    color: ${color.greed};
   }
 `;
 
@@ -45,9 +55,10 @@ const SignMore = styled.span`
   color: ${color.white};
   text-align: center;
   margin: 10px;
-  top: 30%;
+  top: 32%;
   width: 20px;
   height: 23px;
+  border: solid 2px red;
   background: ${color.orange};
   border-radius: 3px;
 `;

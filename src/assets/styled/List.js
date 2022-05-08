@@ -9,6 +9,7 @@ const color = {
 
 const GrupoList = styled.div`
   width: 60%;
+  background: ${color.yellow};
   ul {
     display: flex;
     justify-content: center;
@@ -30,6 +31,6 @@ const GrupoList = styled.div`
       color: ${color.yellow};
     }
   }
-  // background: ${color.yellow};
+  background: ${color.yellow};
 `;
 export { GrupoList };

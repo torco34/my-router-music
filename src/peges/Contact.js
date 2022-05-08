@@ -5,14 +5,18 @@ import { HeaderVerti } from "../components/HeaderVerti";
 function Contact(props) {
   return (
     <>
-      <ImgBody>
-        <HeaderVerti />
-        <SombraImg>
-          <BodyContact>
-            <Form />
-          </BodyContact>
-        </SombraImg>
-      </ImgBody>
+      <div className="container-fluid">
+        <div className="row ">
+          <div className="col-2">
+            <HeaderVerti />
+          </div>
+          <div className="col-10">
+            <ImgBody>
+              <h1>containtos </h1>
+            </ImgBody>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

@@ -5,12 +5,18 @@ import { HeaderVerti } from "../components/HeaderVerti";
 function Reissues(props) {
   return (
     <>
-      <ImgBody>
-        <HeaderVerti />
-        <SombraImg>
-          <h2>Reissues</h2>
-        </SombraImg>
-      </ImgBody>
+      <div className="container-fluid">
+        <div className="row ">
+          <div className="col-2">
+            <HeaderVerti />
+          </div>
+          <div className="col-10">
+            <ImgBody>
+              <h1>biblioteca</h1>
+            </ImgBody>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

@@ -5,13 +5,11 @@ import { HeaderVerti } from "./HeaderVerti";
 const Layout = ({ children }) => {
   return (
     <>
-      {children}
-      <ImgBody>
+      <div className="col-12  border border-info">
         <HeaderVerti />
-        <SombraImg>
-          <p>Layout</p>
-        </SombraImg>
-      </ImgBody>
+
+        {children}
+      </div>
     </>
   );
 };

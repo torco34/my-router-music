@@ -6,16 +6,18 @@ import { HeaderVerti } from "../components/HeaderVerti";
 function Home(props) {
   return (
     <>
-      <ImgBody>
-        <HeaderVerti />
-        <SombraImg>
-          <Parrafoh2>
-            <Link to="/contact">
-              <p className=" btn btn-danger">Iniciar Section</p>
-            </Link>
-          </Parrafoh2>
-        </SombraImg>
-      </ImgBody>
+      <div className="container-fluid">
+        <div className="row ">
+          <div className="col-2">
+            <HeaderVerti />
+          </div>
+          <div className="col-10">
+            <ImgBody>
+              <h1>Hola home</h1>
+            </ImgBody>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

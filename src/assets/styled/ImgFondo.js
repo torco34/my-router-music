@@ -15,16 +15,22 @@ const ImgBody = styled.div`
   background-attachment: fixed;
   background-position: center;
   position: relative;
-  z-index: 1;
+  z-index: 6;
+  opacity: 0.5;
+  width: 100%;
+  // top: -100%;
+  // margin-left: 10%;
 `;
 const SombraImg = styled.div`
+  display: flex;
   width: 100%;
   height: 100vh;
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: 20px;
   background: linear-gradient(${color.yellow}, ${color.yellow});
   opacity: 0.6;
+  right: 0;
 `;
 
 const Parrafoh2 = styled.h2`
@@ -32,17 +38,22 @@ const Parrafoh2 = styled.h2`
   justify-content: end;
   margin-right: 10px;
   fon-size: 10px;
-  margin-top: 20px;
+  color: #fff;
+  width: 50%;
+  position: relative;
+  right: 0;
+
+  border: solid 2px #000;
 
   p {
+    position: absolute;
     border: solid 1px ${color.white};
-    margin-right: 10px;
+    // margin-right: 10px;
     color: ;
-
     padding: 10px;
     font-size: 20px;
     margin-top: 20px;
-    opacity: 0.6;
+    // opacity: 0.6;
   }
 `;
 const BodyContact = styled.div`

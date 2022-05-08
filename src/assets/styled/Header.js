@@ -10,7 +10,7 @@ const color = {
 const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  background: ${color.light};
+  // background: ${color.orange};
   width: 100%;
   height: 8vh;
   padding: 15px 4px 7px 50px;
